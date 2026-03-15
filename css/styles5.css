@@ -1,0 +1,76 @@
+
+/* Pastel Green Theme – Soft Sage Version */
+
+:root {
+  --bs-primary: #A8D5BA;
+  --bs-primary-rgb: 168,213,186;
+
+  --bs-link-color: #7FBFA1;
+  --bs-link-hover-color: #355F4A;
+
+  --bs-success: #7FBFA1;
+
+  --bs-border-color-translucent: #A8D5BA;
+
+  --bs-body-color: #355F4A;
+  --bs-body-bg: #F5FBF7;
+}
+
+/* Navbar */
+#mainNav{
+  background-color: #ffffff;
+}
+
+#mainNav .navbar-brand{
+  color:#355F4A !important;
+}
+
+#mainNav .nav-link{
+  color:#355F4A !important;
+}
+
+#mainNav .nav-link:hover{
+  color:#7FBFA1 !important;
+}
+
+/* Buttons */
+.btn-primary{
+  background-color:#A8D5BA !important;
+  border-color:#A8D5BA !important;
+}
+
+.btn-primary:hover{
+  background-color:#7FBFA1 !important;
+  border-color:#7FBFA1 !important;
+}
+
+/* Page background */
+body{
+  background:#F5FBF7;
+}
+
+/* Sections */
+.page-section.bg-primary{
+  background:#A8D5BA !important;
+}
+
+/* Portfolio hover overlay */
+.portfolio-box-caption{
+  background: rgba(168,213,186,0.9) !important;
+}
+
+/* Divider */
+.divider{
+  background-color:#7FBFA1;
+}
+
+/* Header gradient */
+.masthead{
+  background: linear-gradient(135deg,#A8D5BA,#EAF7F0);
+}
+
+/* Forms */
+.form-control:focus{
+  border-color:#A8D5BA;
+  box-shadow:0 0 0 0.2rem rgba(168,213,186,0.25);
+}
